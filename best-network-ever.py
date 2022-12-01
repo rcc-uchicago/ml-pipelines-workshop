@@ -39,4 +39,4 @@ model.fit(X_train, y_train, epochs=25, verbose=0)
 # Evaluate
 loss_and_acc = model.evaluate(X_test,y_test)
 print('Loss: ',loss_and_acc[0])
-print('Accuracy: ', loss_and_acc[1]
+print('Accuracy: ', loss_and_acc[1])

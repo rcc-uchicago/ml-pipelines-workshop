@@ -12,7 +12,12 @@ Here are a few quick tips on how to make sure you're actually using a GPU.
 
 You should see details about the device, if it is detected.
 
+Then, be sure you have CuDNN and CUDA installed/loaded. On Midway, simply run:
 
+```
+module load cudnn
+```
+which will automatically load cuda and cudnn.
 
 
 ## Tensorflow
